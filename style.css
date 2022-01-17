@@ -1,0 +1,82 @@
+html,
+body,
+.contenedor {
+  height: 100%;
+  background-color: rgba(33, 37, 41, 1);
+}
+
+.escena {
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.contenido {
+  position: absolute;
+  top: 50%;
+  bottom: 20%;
+  left: 40%;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  color: whitesmoke;
+}
+.contenido h2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0.5em;
+  border-bottom: solid 4px blueviolet;
+  border-right: blueviolet;
+}
+.contenido p {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1em;
+  overflow: auto;
+}
+
+#audio {
+  right: 0%;
+  bottom: 0%;
+  position: fixed;
+  font-size: 3em;
+  color: whitesmoke;
+  margin: 1%;
+  cursor: pointer;
+}
+#portada {
+  background: url("media/cuenca.jpg");
+  background-position:  center center;
+  background-size: cover;
+}
+#p1 {
+  background: url("media/Alarcon.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#p2 {
+  background: url("media/Belmonte.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#p3 {
+  background: url("media/Sisante.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#p4 {
+  background: url("media/sanclemente.jpg");
+  background-position: center center;
+  background-size: cover;
+
+}
+#p5 {
+  background: url("media/Huete.jpg");
+  background-position: center center;
+  background-size: cover;
+
+}
+#contraPortada {
+  background: url("media/adios.jpg");
+  background-position: center center;
+  background-size: cover;
+
+}

@@ -1,0 +1,51 @@
+
+@keyframes opacity-normal {
+    from {
+      opacity: 0;
+      
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes top-normal {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 0;
+    }
+  }
+  @keyframes left-normal {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  @keyframes right-normal {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 0;
+    }
+  }
+  @keyframes bottom-normal {
+    from {
+      bottom: -100%;
+    }
+    to {
+      bottom: 0;
+    }
+  }
+  @keyframes skew-normal {
+    from {
+      transform: skew(180deg, 180deg);
+    }
+    to {
+      transform: skew(0, 0);
+    }
+  }
+  
